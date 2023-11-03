@@ -354,19 +354,19 @@
 				<div class="row justify-content-between">
 					<div class="back-skill-box">
 
-						<div class="dev-skill-box html">
+						<div class="dev-skill-box me-3 html">
 							<img src="../assets/img/php_logo.png" alt="">
 						</div>
-						<div class="dev-skill-box html">
+						<div class="dev-skill-box me-3 html">
 							<img src="../assets/img/phpmyadmin-icon-.png" alt="">
 						</div>
-						<div class="dev-skill-box html">
+						<div class="dev-skill-box me-3 html">
 							<img src="../assets/img/laravel.png" alt="">
 						</div>
-						<div class="dev-skill-box html">
+						<div class="dev-skill-box me-3 html">
 							<img src="../assets/img/sql_logo.png" alt="">
 						</div>
-						<div class="dev-skill-box html">
+						<div class="dev-skill-box me-3 html">
 							<img src="../assets/img/mysql-logo.png" alt="">
 						</div>
 
@@ -380,13 +380,13 @@
 				<div class="row justify-content-between">
 					<div class="back-skill-box">
 
-						<div class="dev-skill-box html">
+						<div class="dev-skill-box me-3 html">
 							<img src="../assets/img/git.png" alt="">
 						</div>
-						<div class="dev-skill-box html">
+						<div class="dev-skill-box me-3 html">
 							<img src="../assets/img/GitHub.png" alt="">
 						</div>
-						<div class="dev-skill-box html">
+						<div class="dev-skill-box me-3 html">
 							<img src="../assets/img/mamp-icon.png" alt="">
 						</div>
 

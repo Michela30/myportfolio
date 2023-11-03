@@ -65,7 +65,7 @@
       	</nav>
 
 		<div>
-			<div class="presentation bg-warning">
+			<div class="presentation">
 				<h5>
 					Hi there! My name is
 				</h5>
