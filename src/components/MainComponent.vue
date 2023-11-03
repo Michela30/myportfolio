@@ -115,7 +115,7 @@ import SkillsSection from './SkillsSection.vue';
 			<h3 class="mb-5">
 				About Me
 			</h3>
-			<div class="row flex-wrap">
+			<div class="row">
 				<div class="section-skills">
 					<h6 class="px-4">
 						My name is Michela De Stefano,
@@ -317,6 +317,15 @@ import SkillsSection from './SkillsSection.vue';
 	from {
 		width: 0;
 	}
+}
+
+@media screen and (min-width: 425px){
+
+}
+
+
+@media screen and (min-width: 576px){
+
 }
 
 
