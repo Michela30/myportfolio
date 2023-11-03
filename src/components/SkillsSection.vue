@@ -79,9 +79,11 @@
 								<p>
 									Boolando is the reproduction of the original website Zalando. The technologies used are <span class="main-color">HTML</span> and <span class="main-color">CSS</span> with added animation in some elements of the page. A simple and accurate e-commerce, ready to sell new products!
 								</p>
-								<a href="https://michela30.github.io/Boolando/" class="btn btn-success">
-									Show
-								</a>
+								<div class="d-flex justify-content-center">
+									<a href="https://michela30.github.io/Boolando/" class="btn-show" target="_blank">
+										Show
+									</a>
+								</div>
 							</div>
 						</div>
 						
@@ -411,7 +413,14 @@
 <style lang="scss" scoped>
 @use '../assets/scss/variables.scss' as *;
 
-
+.btn-show{
+	background-color: #F10081;
+	padding: 10px 15px;
+	color: white;
+	text-decoration: none;
+	border-radius: 15px;
+	border: 1px solid transparent;
+}
 .frontend{
 	width: 200px;
 	height: 300px;
