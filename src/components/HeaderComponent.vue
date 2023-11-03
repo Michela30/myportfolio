@@ -70,7 +70,7 @@
 						Hi there! My name is
 					</h5>
 					<h1>
-						Michela De Stefano
+						Michela CIAO
 					</h1>
 					<h4>
 						A Jr Full Stack Web Developer from Rome.
