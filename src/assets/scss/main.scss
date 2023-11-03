@@ -1,0 +1,26 @@
+@use 'variables.scss' as *;
+
+// Import all of Bootstrap's CSS
+@import "bootstrap/scss/bootstrap";
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sansita', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+:root{
+    --main-color: #E2205C;
+}
+
+.main-bg-color{
+    background-color: #E2205C;
+}
+.main-color{
+    color: #E2205C;
+}
