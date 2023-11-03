@@ -64,25 +64,21 @@
 			</ul>
       	</nav>
 
-	  	<div>
-				<div class="presentation">
-					<h5>
-						Hi there! My name is
-					</h5>
-					<h1>
-						Michela CIAO
-					</h1>
-					<h4>
-						A Jr Full Stack Web Developer from Rome.
-					</h4>
-					<h6>
-						Take a look at the portfolio to find out more
-					</h6>
-					
-									<h2>
-										CIAO
-									</h2>
-				</div>
+		<div>
+			<div class="presentation bg-warning">
+				<h5>
+					Hi there! My name is
+				</h5>
+				<h1>
+					Michela De Stefano
+				</h1>
+				<h4>
+					A Jr Full Stack Web Developer from Rome.
+				</h4>
+				<h6>
+					Take a look at the portfolio to find out more
+				</h6>
+			</div>
 		</div>
     </header>
 
