@@ -78,11 +78,11 @@
 					<h6>
 						Take a look at the portfolio to find out more
 					</h6>
+					
+									<h2>
+										CIAO
+									</h2>
 				</div>
-
-				<h2>
-					CIAO
-				</h2>
 		</div>
     </header>
 
