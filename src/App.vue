@@ -20,10 +20,6 @@ import axios from 'axios';
       
     },
     created(){
-      axios.get('')
-      .then(response => {
-        console.log(response.data)
-      })
 
     }
   }

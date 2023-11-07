@@ -37,7 +37,9 @@
 					<br>
 					Phone Number: <strong> 3484266535 </strong>
 					<br>
-					Email: <strong>micheladestefano30@gmail.com</strong>
+					Email: <a class="text-decoration-none text-dark" href="mailto:micheladestefano30@gmail.com"><strong>
+						micheladestefano30@gmail.com
+						</strong></a>
 					<br>
 					<br>
 					<i class="fa-brands fa-linkedin"></i>
@@ -62,7 +64,11 @@
 <style lang="scss" scoped>
 @use '../assets/scss/variables.scss' as *;
 
-footer{
+
+@media screen and (min-width: 425px){
+
+	footer{
+	margin-top: 800px;
 	height: 200px;
 	.contacts{
 		background-color: #f0cdf0;
@@ -70,5 +76,35 @@ footer{
 		padding-bottom: 60px;
 	}
 }
+}
 
+
+@media screen and (min-width: 576px){
+
+}
+
+
+/* Tablet */
+
+@media screen and (min-width: 768px){
+
+}
+
+
+
+
+/* Desktop */
+@media screen and (min-width: 992px){
+
+	footer{
+	margin-top: 250px;
+	height: 200px;
+	.contacts{
+		background-color: #f0cdf0;
+		padding-top: 40px;
+		padding-bottom: 60px;
+	}
+	}
+
+}
 </style>

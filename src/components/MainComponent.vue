@@ -112,26 +112,23 @@ import SkillsSection from './SkillsSection.vue';
 		</section>
 
 		<section id="about" class="resume-section">
-			<h3 class="mb-5">
+			<h3 class="mb-3">
 				About Me
 			</h3>
 			<div class="row">
+				<!-- descrizione -->
 				<div class="section-skills">
-					<h6 class="px-4">
+					<h6 class="px-4 description">
 						My name is Michela De Stefano,
 						I am 25 years old and I was born in Rome.
-						<br>
 						After my artistic degree, I started my path in dance.
 						This experience has been important for Discipline, Sacrifice and
 						Determination.
-						<br>
 						That’s why I commissioned a dance website, that introduced me to the world of Web Programming. 
 						I'm the perfect Web Dev Jr. candidate because I aspire to improve and learn new things every day.
-						<br>
 						I am ready to the creativity of the frontend and the logic of the backend!
 						<br>
-						I am a dreamer, and I am a lover of art and graphics. 
-						<br>
+						I am a dreamer,
 						<span class="text-decoration-underline main-color music" @click="getMusicOn()">Music</span> is the soundtrack of my life
 						<i class="fa-solid fa-music"></i>  
 					</h6>
@@ -139,12 +136,21 @@ import SkillsSection from './SkillsSection.vue';
 						<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4YFcYGIRDchpBu2bM5FRWs?utm_source=generator" width="60%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" class="mb-3 mb-md-0"></iframe>
 					</div>
 				</div>
+				<!-- foto -->
 				<div class="section-skills">
 					<div class="photo-box">
 						<img src="../assets/img/Michela-jumbotron-piccolo.png" alt="">
 					</div>
-				</div>
 
+					<div id="cv" class="scarica_cv">
+						<a href="../../public/Michela-De-Stefano-Cv.pdf" download="">
+							<button class="mb-5">
+								Download CV
+							</button>
+						</a>
+					</div>
+				</div>
+				<!-- soft skill -->
 				<div class="section-skills">
 					<h6>
 						Soft skills
@@ -165,15 +171,6 @@ import SkillsSection from './SkillsSection.vue';
 			</div>
 		</section>
 
-		<section>
-			<div id="cv" class="scarica_cv">
-				<a href="../../public/Michela-De-Stefano-Cv.pdf" download="">
-					<button class="mb-5">
-						Download CV
-					</button>
-				</a>
-			</div>
-		</section>
 
     </main>
 
@@ -233,7 +230,6 @@ import SkillsSection from './SkillsSection.vue';
 	text-align: center;
 
 	.section-skills{
-		width: 100%;
 		.music{
 			cursor: pointer;
 		}
@@ -298,8 +294,7 @@ import SkillsSection from './SkillsSection.vue';
 }
 .scarica_cv{
 	text-align: center;
-	margin-top: 80px;
-	margin-bottom: 40px;
+	padding-top: 20px;
 	a{
 		button{
 			background-color: #F10081;
@@ -321,11 +316,24 @@ import SkillsSection from './SkillsSection.vue';
 
 @media screen and (min-width: 425px){
 
+	.resume-section{
+	.section-skills{
+			width: 100%;
+
+			.description{
+				padding: 5px 80px;
+			}
+		}
+	}
 }
 
 
 @media screen and (min-width: 576px){
-
+	.resume-section{
+	.section-skills{
+			width: 100%;
+		}
+	}
 }
 
 
@@ -338,45 +346,24 @@ import SkillsSection from './SkillsSection.vue';
 			width: 70%;
 		}
 	}
-.dev-skill{
-	.row{
-		
-		.dev-skill-box{
-			width: calc((100% / 5) - 20px);
-		}
-	}
-}
-
-.best-projects{
-	padding: 20px 0;
-	.project-box{
-		width: calc((100% / 2) - 20px);
-	}
-}
-}
-
-.resume-section{
+	.resume-section{
 	.section-skills{
-			width: calc(100% / 3);
+			width: 100%;
 		}
 }
+
+}
+
+
 
 
 /* Desktop */
 @media screen and (min-width: 992px){
-.dev-skill{
-	.row{
-		.dev-skill-box{
-			width: calc((100% / 7) - 20px);
-		}
+
+	.resume-section{
+		.section-skills{
+				width: calc(100% / 3);
+			}
 	}
-}
-
-
-.resume-section{
-	.section-skills{
-			width: calc(100% / 3);
-		}
-}
 }
 </style>
