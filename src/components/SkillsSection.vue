@@ -434,11 +434,11 @@
 									</p>
 								</div>
 								
-								<div class="button-container">
+								<!-- <div class="button-container">
 									<a href="https://michela30.github.io/Boolando/" class="btn-show" target="_blank">
 										Show
 									</a>
-								</div>
+								</div> -->
 							</div>
 						</div>
 						
