@@ -64,6 +64,18 @@
 <style lang="scss" scoped>
 @use '../assets/scss/variables.scss' as *;
 
+@media (min-with: 0px) and ( max-with: 375px){
+
+	footer{
+	margin-top: 800px;
+	height: 200px;
+	.contacts{
+		background-color: #f0cdf0;
+		padding-top: 40px;
+		padding-bottom: 60px;
+	}
+}
+}
 
 @media screen and (min-width: 425px){
 
