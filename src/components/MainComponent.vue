@@ -314,7 +314,7 @@ import SkillsSection from './SkillsSection.vue';
 	}
 }
 
-@media screen and (min-with: 375px){
+@media screen and (min-width: 375px){
 
 .resume-section{
 .section-skills{
