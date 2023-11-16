@@ -317,6 +317,7 @@ import SkillsSection from './SkillsSection.vue';
 @media screen and (min-width: 280px){
 
 .resume-section{
+	overflow-x: hidden;
 .section-skills{
 		width: 100%;
 

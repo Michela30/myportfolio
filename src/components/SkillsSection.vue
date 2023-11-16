@@ -593,6 +593,7 @@
 @media screen and (min-width: 280px){
 	.col-video{
 		width: 100%;
+		overflow-x: hidden;
 		.video-box{
 			width: 100%;
 
