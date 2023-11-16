@@ -591,6 +591,36 @@
 	}
 }
 
+@media screen and (min-width: 375px){
+	.col-video{
+		width: 100%;
+		.video-box{
+			width: 100%;
+
+			video{
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+			}
+		}
+	}
+	.col-text{
+		width: 100%;
+	}
+	.button-container{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+		.btn-show{
+			background-color: #F10081;
+			padding: 5px 10px;
+			color: white;
+			text-decoration: none;
+			border-radius: 15px;
+			border: 1px solid transparent;
+		}
+}
+}
 
 @media screen and (min-width: 425px){
 	.col-video{
