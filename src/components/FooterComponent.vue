@@ -64,7 +64,7 @@
 <style lang="scss" scoped>
 @use '../assets/scss/variables.scss' as *;
 
-@media (min-with: 375px){
+@media screen and (min-with: 375px){
 
 	footer{
 	margin-top: 800px;
