@@ -314,6 +314,20 @@ import SkillsSection from './SkillsSection.vue';
 	}
 }
 
+@media screen and (min-width: 280px){
+
+.resume-section{
+.section-skills{
+		width: 100%;
+
+		.description{
+			padding: 5px 80px;
+		}
+	}
+}
+}
+
+
 @media screen and (min-width: 375px){
 
 .resume-section{
