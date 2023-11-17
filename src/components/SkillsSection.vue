@@ -86,7 +86,8 @@
 								</span> -->
 								<div>
 									<p>
-										Boolando is the reproduction of the original website Zalando. The technologies used are <span class="main-color">HTML</span> and <span class="main-color">CSS</span> with added animation in some elements of the page. A simple and accurate e-commerce, ready to sell new products!
+										Boolando is the reproduction of the original website Zalando for <span class="text-decoration-underline">
+										Desktop</span>. The technologies used are <span class="main-color">HTML</span> and <span class="main-color">CSS</span> with added animation in some elements of the page. A simple and accurate e-commerce, ready to sell new products!
 									</p>
 								</div>
 								
@@ -341,7 +342,8 @@
 									Frontend Project
 								</h3>
 								<p>
-									Here is a mockup of a website that deals with courses of study. Made entirely with frontend technologies: HTML, SCSS, VUEJS, <span class="main-color">VITE</span> and <span class="main-color">NODE.JS</span>. 
+									Here is a mockup of a website for <span class="text-decoration-underline">
+										Desktop</span> that deals with courses of study. Made entirely with frontend technologies: HTML, SCSS, VUEJS, <span class="main-color">VITE</span> and <span class="main-color">NODE.JS</span>. 
 								</p>
 								<div class="button-container">
 									<a href="https://michela30.github.io/Progetto-frontend/" class="btn-show" target="_blank">
@@ -382,7 +384,7 @@
 									Hires Company
 								</h3>
 								<p>
-									My first online website after the Boolean course, made with <span class="main-color">HTML</span> and <span class="main-color">CSS</span> technologies.
+									My first online website Responsive after the Boolean course, made with <span class="main-color">HTML</span> and <span class="main-color">CSS</span> technologies.
 								</p>
 								<div class="button-container">
 									<a href="https://hires-company.com/" class="btn-show" target="_blank">
@@ -429,7 +431,8 @@
 								</h3>
 								<div>
 									<p>
-										During the final project of Boolean course in team was born BeSport. I created the Dashboard in blade,  with the help of  SCSS, and I edited the Database with the Migration, Crud and API of <span class="main-color">LARAVEL</span>.
+										During the final project of Boolean course in team was born BeSport. I created the Dashboard in blade,  with the help of  SCSS, and I edited the Database with the Migration, Crud and API of <span class="main-color">LARAVEL</span>, completely <span class="text-decoration-underline">
+										Responsive</span>.
 										Braintree and chart.js libraries were used for the payment method and graphs.
 									</p>
 								</div>
