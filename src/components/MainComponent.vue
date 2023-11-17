@@ -143,7 +143,7 @@ import SkillsSection from './SkillsSection.vue';
 					</div>
 
 					<div id="cv" class="scarica_cv">
-						<a href="../../public/Michela-De-Stefano-Cv.pdf" download="">
+						<a href="https://michela30.github.io/public/Michela-De-Stefano-CV.pdf" download="">
 							<button class="mb-5">
 								Download CV
 							</button>
