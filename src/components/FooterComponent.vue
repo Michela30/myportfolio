@@ -82,7 +82,6 @@ height: 200px;
 	footer{
 	margin-top: 800px;
 	height: 200px;
-	overflow-x: hidden;
 	.contacts{
 		background-color: #f0cdf0;
 		padding-top: 40px;
